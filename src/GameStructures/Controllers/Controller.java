@@ -1,8 +1,12 @@
 package GameStructures.Controllers;
 
-import GameStructures.Pawn;
+import GamePackage.Game;
+import GameStructures.Actor.Pawn;
 
 public abstract class Controller {
-    Pawn controlledPawn;
-    abstract void ExecuteCommand(String command);
+    public Pawn controlledPawn;
+
+    abstract  void InputCommand();
+
+
 }

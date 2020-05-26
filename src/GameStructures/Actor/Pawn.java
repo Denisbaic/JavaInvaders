@@ -1,9 +1,11 @@
-package GameStructures;
+package GameStructures.Actor;
 
+import GameStructures.Actor.GameObject;
 import GameStructures.Controllers.Controller;
+import GameStructures.IntPair;
 
 public abstract class Pawn extends GameObject {
-    Controller Pawn;
+    Controller PawnController;
     int speed;
 
     public Pawn(int lifes, GameObject owner, IntPair coord, char symbol) {

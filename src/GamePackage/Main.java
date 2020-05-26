@@ -1,8 +1,8 @@
 package GamePackage;
 import GameStructures.Field.GameField;
-import GameStructures.GameObject;
+import GameStructures.Actor.GameObject;
 import GameStructures.IntPair;
-import GameStructures.Stone;
+import GameStructures.Actor.Stone;
 
 import java.util.ArrayList;
 import java.util.List;

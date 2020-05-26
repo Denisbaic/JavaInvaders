@@ -1,6 +1,7 @@
-package GameStructures;
+package GameStructures.Actor;
 
 import GamePackage.Movable;
+import GameStructures.IntPair;
 
 public abstract class GameObject implements Movable {
     int lifes;

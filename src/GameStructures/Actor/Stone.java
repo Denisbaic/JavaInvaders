@@ -1,4 +1,6 @@
-package GameStructures;
+package GameStructures.Actor;
+
+import GameStructures.IntPair;
 
 public class Stone extends GameObject {
 

@@ -20,12 +20,14 @@ public class Game {
 
     public void Run(){
         gameField.show();
+
     }
+
     public  void Restart(){
 
     }
     public void Exit(){
-
+        System.exit(0);
     }
 
 
